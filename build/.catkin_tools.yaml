@@ -1,0 +1,6 @@
+devel_space: /home/roblab/roblab_src/TechDev_LineTrace/devel
+install: false
+install_space: /home/roblab/roblab_src/TechDev_LineTrace/install
+profile: default
+source_space: /home/roblab/roblab_src/TechDev_LineTrace/src
+workspace: /home/roblab/roblab_src/TechDev_LineTrace
