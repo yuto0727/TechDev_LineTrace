@@ -1,0 +1,8 @@
+prefix=/home/roblab/Robolab/TechDev_LineTrace/devel/.private/read_sensor_val
+
+Name: read_sensor_val
+Description: Description of read_sensor_val
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

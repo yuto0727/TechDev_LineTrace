@@ -1,0 +1,8 @@
+<launch>
+    <node name="mbed0" pkg="rosserial_python" type="serial_node.py" output="screen">
+        <param name="port" value="/dev/ttyACM0"/>
+        <param name="baud" value="115200"/>
+    </node>
+    <node name="kadai1_2_pub" pkg="beginner_tutorials" type="kadai1_2_pub"/>
+    <node name="kadai1_2_sub" pkg="beginner_tutorials" type="kadai1_2_sub" output="screen"/>
+</launch>

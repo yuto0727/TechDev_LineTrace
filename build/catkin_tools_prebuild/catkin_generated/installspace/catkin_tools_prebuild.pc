@@ -1,4 +1,4 @@
-prefix=/home/roblab/roblab_src/TechDev_LineTrace/install
+prefix=/home/roblab/Robolab/TechDev_LineTrace/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/roblab/roblab_src/TechDev_LineTrace/devel/.private/catkin_tools_prebuild/setup.sh
+    local-name: /home/roblab/Robolab/TechDev_LineTrace/devel/.private/catkin_tools_prebuild/setup.sh

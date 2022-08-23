@@ -1,1 +1,1 @@
-/home/roblab/roblab_src/TechDev_LineTrace/devel/.private/catkin_tools_prebuild/local_setup.zsh
+/home/roblab/Robolab/TechDev_LineTrace/devel/.private/catkin_tools_prebuild/local_setup.zsh

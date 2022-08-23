@@ -204,3 +204,9 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+add_executable(kadai1_2_pub src/kadai1_2_pub.cpp)
+target_link_libraries(kadai1_2_pub ${catkin_LIBRARIES})
+
+add_executable(kadai1_2_sub src/kadai1_2_sub.cpp)
+target_link_libraries(kadai1_2_sub ${catkin_LIBRARIES})
