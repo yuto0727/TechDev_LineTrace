@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target calc_sensor_val[0m
+[ 50%] Built target disp_val
+[ 75%] [32mBuilding CXX object CMakeFiles/calc_sensor_val.dir/src/calc_sensor_val.cpp.o[0m
+[01m[K/home/roblab/Robolab/TechDev_LineTrace/src/linetrace/src/calc_sensor_val.cpp:[m[K In function ‘[01m[Kstd::vector<float> calc_wheel_speeds(std::vector<float>)[m[K’:
+[01m[K/home/roblab/Robolab/TechDev_LineTrace/src/linetrace/src/calc_sensor_val.cpp:88:21:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""f[m[K’
+     sensor_val[0] = [01;31m[K1f[m[K;
+                     [01;31m[K^~[m[K
+[01m[K/home/roblab/Robolab/TechDev_LineTrace/src/linetrace/src/calc_sensor_val.cpp:89:21:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""f[m[K’
+     sensor_val[1] = [01;31m[K1f[m[K;
+                     [01;31m[K^~[m[K
+[01m[K/home/roblab/Robolab/TechDev_LineTrace/src/linetrace/src/calc_sensor_val.cpp:90:21:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""f[m[K’
+     sensor_val[2] = [01;31m[K1f[m[K;
+                     [01;31m[K^~[m[K
+[01m[K/home/roblab/Robolab/TechDev_LineTrace/src/linetrace/src/calc_sensor_val.cpp:91:21:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""f[m[K’
+     sensor_val[5] = [01;31m[K1f[m[K;
+                     [01;31m[K^~[m[K
+[01m[K/home/roblab/Robolab/TechDev_LineTrace/src/linetrace/src/calc_sensor_val.cpp:92:21:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""f[m[K’
+     sensor_val[6] = [01;31m[K1f[m[K;
+                     [01;31m[K^~[m[K
+[01m[K/home/roblab/Robolab/TechDev_LineTrace/src/linetrace/src/calc_sensor_val.cpp:93:21:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""f[m[K’
+     sensor_val[7] = [01;31m[K1f[m[K;
+                     [01;31m[K^~[m[K
+CMakeFiles/calc_sensor_val.dir/build.make:62: recipe for target 'CMakeFiles/calc_sensor_val.dir/src/calc_sensor_val.cpp.o' failed
+make[2]: *** [CMakeFiles/calc_sensor_val.dir/src/calc_sensor_val.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/calc_sensor_val.dir/all' failed
+make[1]: *** [CMakeFiles/calc_sensor_val.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

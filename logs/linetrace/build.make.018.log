@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target calc_sensor_val[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/calc_sensor_val.dir/src/calc_sensor_val.cpp.o[0m
+[ 75%] Built target disp_val
+[100%] [32m[1mLinking CXX executable /home/roblab/Robolab/TechDev_LineTrace/devel/.private/linetrace/lib/linetrace/calc_sensor_val[0m
+[100%] Built target calc_sensor_val

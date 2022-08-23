@@ -30,11 +30,11 @@ std_msgs::Float32MultiArray msg_wheel_speeds;
 
 // しきい値計算用
 const float white = 0.94f;
-const float black = 0.33f;
+const float black = 0.4f;
 const float threshold = (white + black) / 2.0f;
 
 // デフォルトのモーターパワー（％）
-const float wheel_speed_default = 50.0f
+const float wheel_speed_default = 50.0f;
 
 /**********************************************************************
 Declare Instances
@@ -64,7 +64,7 @@ int main(int argc, char **argv)
         msg_wheel_speeds.data = calc_wheel_speeds(light_sensor_val_vec);
         pub_msg_wheel_speeds.publish(msg_wheel_speeds);
 
-        ROS_INFO("A: %f B: %f", light_sensor_val_vec[3], light_sensor_val_vec[4]);
+        ROS_INFO("threshold: %f A: %f->%f B: %f->%f", threshold, light_sensor_val_vec[3], msg_wheel_speeds.data[0], light_sensor_val_vec[4], msg_wheel_speeds.data[1]);
 
         loop_rate.sleep();
     }
@@ -85,6 +85,14 @@ inline std::vector<float> calc_wheel_speeds(std::vector<float> sensor_val){
     std::vector<float> wheel_speeds = {wheel_speed_default, wheel_speed_default};
     // 引数のセンサーの値からモーターパワーを計算
 
+    // 以下、デバック用
+    sensor_val[0] = 1.0f;
+    sensor_val[1] = 1.0f;
+    sensor_val[2] = 1.0f;
+    sensor_val[5] = 1.0f;
+    sensor_val[6] = 1.0f;
+    sensor_val[7] = 1.0f;
+
     // 黒のラインがどこに有るか探査
     int black_detected_sensor = 100;
     for (int i=0; i < 8; i++){
@@ -93,6 +101,8 @@ inline std::vector<float> calc_wheel_speeds(std::vector<float> sensor_val){
             black_detected_sensor = i;
         }
     }
+
+    ROS_INFO("%i", black_detected_sensor);
 
     if (black_detected_sensor == 3){
         wheel_speeds[0] += 15.0f;

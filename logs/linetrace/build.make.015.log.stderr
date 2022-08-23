@@ -1,0 +1,7 @@
+[01m[K/home/roblab/Robolab/TechDev_LineTrace/src/linetrace/src/calc_sensor_val.cpp:47:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+ [01;31m[Kint[m[K main(int argc, char **argv)
+ [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/calc_sensor_val.dir/src/calc_sensor_val.cpp.o] Error 1
+make[1]: *** [CMakeFiles/calc_sensor_val.dir/all] Error 2
+make[1]: *** 未完了のジョブを待っています....
+make: *** [all] Error 2
