@@ -944,3 +944,4 @@ build/catkin_tools_prebuild/gtest/googlemock/gtest/CMakeFiles/gtest.dir/link.txt
 build/catkin_tools_prebuild/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make
 build/catkin_tools_prebuild/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake
 build/catkin_tools_prebuild/gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt
+.vscode/settings.json
